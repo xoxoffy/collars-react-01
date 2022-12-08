@@ -2,7 +2,7 @@ import './App.css';
 import HomeSection from './components/HomeSection/HomeSection';
 import NavBar from './components/Navbar/NavBar';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div className="container">
@@ -11,6 +11,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;

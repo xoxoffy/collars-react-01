@@ -6,10 +6,11 @@ const NavBar = () => {
       <div className="navbar-home">
         <b>moja firma</b>
       </div>
-      <div className="navbar-links"></div>
-      <a>o nas</a>
-      <a>oferta</a>
-      <a>kontakt</a>
+      <div className="navbar-links">
+        <button>o nas</button>
+        <button>oferta</button>
+        <button>kontakt</button>
+      </div>
     </nav>
   );
 };

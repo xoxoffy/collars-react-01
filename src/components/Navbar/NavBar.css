@@ -1,6 +1,5 @@
 .navbar {
   background-color: grey;
-  display: flex;
 }
 
 .navbar-home {
@@ -12,4 +11,10 @@
 .navbar-links {
   display: flex;
   justify-content: flex-end;
+}
+
+.navbar-links button {
+  border: none;
+  background-color: transparent;
+  color: whitesmoke;
 }
