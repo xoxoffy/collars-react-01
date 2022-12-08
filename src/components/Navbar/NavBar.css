@@ -1,0 +1,14 @@
+.navbar {
+  background-color: grey;
+}
+
+.navbar-home {
+  display: flex;
+  justify-content: flex-start;
+  color: whitesmoke;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+}
