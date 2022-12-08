@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="navbar-links">
         <button>o nas</button>
         <button>oferta</button>
-        <button>kontakt</button>
+        <button style={{ cursor: 'not-allowed' }}>kontakt</button>
       </div>
     </nav>
   );
