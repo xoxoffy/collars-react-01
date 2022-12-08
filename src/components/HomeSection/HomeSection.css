@@ -1,5 +1,5 @@
 .home-section {
-  height: 100%vh;
+  height: 100vh;
   background-image: url('https://i.picsum.photos/id/120/200/200.jpg?hmac=iqJko6IlBQjHPwKm31fa-KtEGqwtJfXohpfL0Y41EtQ');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -13,4 +13,10 @@
   cursor: pointer;
   border: 2px solid white;
   width: 100px;
+  transition-duration: 1s;
+}
+
+.offer-button:hover {
+  background-color: white;
+  color: black;
 }
