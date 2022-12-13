@@ -5,10 +5,8 @@ import NavBar from './components/Navbar/NavBar';
 const App = () => {
   return (
     <div className="App">
-      <div className="main">
-        <NavBar />
-        <HomeSection />
-      </div>
+      <NavBar />
+      <HomeSection />
     </div>
   );
 };

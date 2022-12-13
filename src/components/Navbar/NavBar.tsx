@@ -3,13 +3,22 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-home">
-        <b>moja firma</b>
+      <div className="title">
+        <h3>
+          <b>moja firma</b>
+        </h3>
       </div>
-      <div className="navbar-links">
-        <button>o nas</button>
-        <button>oferta</button>
-        <button style={{ cursor: 'not-allowed' }}>kontakt</button>
+
+      <div className="navbar-buttons">
+        <button>
+          <h3>o nas</h3>
+        </button>
+        <button>
+          <h3>oferta</h3>
+        </button>
+        <button style={{ cursor: 'not-allowed' }}>
+          <h3>kontakt</h3>
+        </button>
       </div>
     </nav>
   );
