@@ -2,8 +2,8 @@ import React from 'react';
 import './ServiceBox.css';
 
 interface Props {
-  serviceName?: string;
-  isNew?: boolean;
+  serviceName: string;
+  isNew: boolean;
 }
 
 const ServiceBox: React.FunctionComponent<Props> = ({
