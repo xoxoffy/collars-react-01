@@ -1,0 +1,20 @@
+.specialists-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.specialists-header {
+  font-weight: bold;
+  color: rgb(43, 63, 78);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li:nth-of-type(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}

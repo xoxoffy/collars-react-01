@@ -1,0 +1,17 @@
+.specialist {
+  display: flex;
+}
+.specialist-photo img {
+  margin-top: 15px;
+}
+.specialist-photo img {
+  border-radius: 50%;
+  height: 200px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.specialist-info {
+  margin-left: 50px;
+  margin-right: 50px;
+}

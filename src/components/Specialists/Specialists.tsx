@@ -1,9 +1,16 @@
-import React from 'react';
+import Specialist from './Specialist/Specialist';
+import './Specialists.css';
 
-const Specialists = () => {
+const Specialists: React.FunctionComponent = () => {
   return (
-    <div>
-      <h1>Specialists</h1>
+    <div className="specialists-container">
+      <div className="specialists-header">
+        <h1>Nasi specjaliści</h1>
+      </div>
+      <div className="specialists">
+        <Specialist />
+        <Specialist />
+      </div>
     </div>
   );
 };
