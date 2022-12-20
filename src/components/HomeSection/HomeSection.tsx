@@ -1,6 +1,6 @@
 import './HomeSection.css';
 
-const HomeSection = () => {
+const HomeSection: React.FunctionComponent = () => {
   return (
     <div className="img-background">
       <section className="home-section">

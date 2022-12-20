@@ -7,7 +7,7 @@ import Specialists from './components/Specialists/Specialists';
 
 const App: React.FunctionComponent = () => {
   return (
-    <div className="App">
+    <div className="container">
       <NavBar />
       <HomeSection />
       <Specialists />

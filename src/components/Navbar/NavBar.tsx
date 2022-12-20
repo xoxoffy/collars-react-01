@@ -1,6 +1,6 @@
 import './NavBar.css';
 
-const NavBar = () => {
+const NavBar: React.FunctionComponent = () => {
   return (
     <nav className="navbar">
       <div className="title">
