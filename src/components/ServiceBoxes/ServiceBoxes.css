@@ -3,6 +3,12 @@
   padding: 50px;
 }
 
+@media only screen and (max-device-width: 480px) {
+  .service-boxes {
+    width: 200px;
+  }
+}
+
 .service-boxes-container h1 {
   color: rgba(255, 255, 255, 0.897);
 }

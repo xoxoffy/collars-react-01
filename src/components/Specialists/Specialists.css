@@ -8,6 +8,14 @@
   font-weight: bold;
   color: rgb(43, 63, 78);
 }
+@media only screen and (max-device-width: 480px) {
+  .specialists-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 
 li:nth-of-type(even) {
   display: flex;
