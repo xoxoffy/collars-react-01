@@ -1,8 +1,10 @@
 import Specialist from './Specialist/Specialist';
 import './Specialists.css';
-import { specialistsData } from '../../data/specialistsData';
+import { specialistsData } from '../../../../data/specialistsData';
+import { useRef } from 'react';
+import React from 'react';
 
-const Specialists: React.FunctionComponent = () => {
+const Specialists: React.FunctionComponent = React.forwardRef((ref) => {
   const mappedSpecialists = specialistsData.map((specialist) => {
     return (
       <Specialist
@@ -14,6 +16,7 @@ const Specialists: React.FunctionComponent = () => {
       />
     );
   });
+
   return (
     <div className="specialists-container">
       <div className="specialists-header">
@@ -22,6 +25,6 @@ const Specialists: React.FunctionComponent = () => {
       <div className="specialists">{mappedSpecialists}</div>
     </div>
   );
-};
+});
 
 export default Specialists;

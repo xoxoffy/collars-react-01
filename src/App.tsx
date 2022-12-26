@@ -1,18 +1,10 @@
 import './App.css';
-import Footer from './components/Footer/Footer';
-import HomeSection from './components/HomeSection/HomeSection';
-import NavBar from './components/Navbar/NavBar';
-import ServiceBoxes from './components/ServiceBoxes/ServiceBoxes';
-import Specialists from './components/Specialists/Specialists';
+import DesktopView from './Views/Desktop/DesktopView';
 
 const App: React.FunctionComponent = () => {
   return (
     <div className="container">
-      <NavBar />
-      <HomeSection />
-      <Specialists />
-      <ServiceBoxes />
-      <Footer />
+      <DesktopView />
     </div>
   );
 };
