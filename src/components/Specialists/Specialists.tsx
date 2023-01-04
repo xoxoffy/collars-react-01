@@ -1,6 +1,6 @@
 import Specialist from './Specialist/Specialist';
 import './Specialists.css';
-import { specialistsData } from '../../../../data/specialistsData';
+import { specialistsData } from '../../data/specialistsData';
 import { useRef } from 'react';
 import React from 'react';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './ServiceBoxes.css';
-import { services } from '../../../../data/serviceBoxData';
+import { services } from '../../data/serviceBoxData';
 import ServiceBox from './ServiceBox/ServiceBox';
 
 const ServiceBoxes: React.FunctionComponent = () => {
