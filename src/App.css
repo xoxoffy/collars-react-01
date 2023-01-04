@@ -6,3 +6,9 @@ html {
   margin: 0 auto;
   width: 960px;
 }
+
+@media (max-width: 500px) {
+  .container {
+    width: 100vh;
+  }
+}
