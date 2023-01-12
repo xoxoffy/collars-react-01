@@ -1,6 +1,14 @@
 import './NavBar.css';
 
-const NavBar: React.FunctionComponent = () => {
+interface Props {
+  handleClickScrollOffer: () => void;
+  handleClickAboutUs: () => void;
+}
+
+const NavBar: React.FunctionComponent<Props> = ({
+  handleClickScrollOffer,
+  handleClickAboutUs,
+}) => {
   return (
     <nav className="navbar">
       <div className="title">
@@ -10,10 +18,10 @@ const NavBar: React.FunctionComponent = () => {
       </div>
 
       <div className="navbar-buttons">
-        <button>
+        <button onClick={handleClickAboutUs}>
           <h3>o nas</h3>
         </button>
-        <button>
+        <button onClick={handleClickScrollOffer}>
           <h3>oferta</h3>
         </button>
         <button style={{ cursor: 'not-allowed' }}>

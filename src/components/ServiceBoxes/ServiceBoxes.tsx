@@ -4,9 +4,13 @@ import { services } from '../../data/serviceBoxData';
 import ServiceBox from './ServiceBox/ServiceBox';
 
 const ServiceBoxes: React.FunctionComponent = () => {
-  const mappedServiceBoxes = services.map((services) => {
+  const mappedServiceBoxes = services.map((services, key) => {
     return (
-      <ServiceBox serviceName={services.serviceName} isNew={services.isNew} />
+      <ServiceBox
+        key={key}
+        serviceName={services.serviceName}
+        isNew={services.isNew}
+      />
     );
   });
   return (

@@ -1,6 +1,12 @@
 import './HomeSection.css';
 
-const HomeSection: React.FunctionComponent = () => {
+interface Props {
+  handleClickScrollOffer: () => void;
+}
+
+const HomeSection: React.FunctionComponent<Props> = ({
+  handleClickScrollOffer,
+}) => {
   return (
     <div className="img-background">
       <section className="home-section">
@@ -9,7 +15,9 @@ const HomeSection: React.FunctionComponent = () => {
           <br /> jakości produkty.
         </h1>
         <h4>Nie wierz nam na słowo - sprawdź</h4>
-        <button className="offer-button">oferta</button>
+        <button onClick={handleClickScrollOffer} className="offer-button">
+          oferta
+        </button>
       </section>
     </div>
   );
