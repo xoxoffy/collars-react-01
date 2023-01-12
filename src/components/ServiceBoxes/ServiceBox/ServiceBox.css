@@ -4,8 +4,10 @@
   background-color: rgba(255, 255, 255, 0.815);
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin-top: 50px;
   margin-left: 25px;
   margin-right: 25px;
@@ -25,4 +27,8 @@
   position: absolute;
   margin-top: -140px;
   margin-right: 140px;
+}
+
+.newText {
+  margin-top: -10px;
 }

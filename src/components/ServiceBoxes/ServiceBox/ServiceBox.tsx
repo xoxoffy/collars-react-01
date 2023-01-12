@@ -14,6 +14,7 @@ const ServiceBox: React.FunctionComponent<Props> = ({
     <div className="service-box">
       {isNew && <div className="isNewCircle"></div>}
       <h3>{serviceName}</h3>
+      {isNew ? <div className="newText">(nowość)</div> : null}
     </div>
   );
 };
