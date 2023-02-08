@@ -26,7 +26,7 @@ const Specialist: React.FunctionComponent<Props> = ({
 
   return (
     <li className="specialist">
-      <div style={photoStyle}></div>
+      <div className="specialist-image" style={photoStyle}></div>
       <div className="specialist-info">
         <h3>
           {firstName} {lastName} {position}

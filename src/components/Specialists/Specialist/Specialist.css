@@ -11,8 +11,7 @@
   .specialist {
     display: flex;
     flex-direction: column;
-  }
-  .specialist-info {
-    width: 100%;
+    margin-left: -50px;
+    margin-right: -50px;
   }
 }

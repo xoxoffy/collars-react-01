@@ -21,5 +21,11 @@ li:nth-of-type(even) {
     display: flex;
     flex-direction: wrap;
     flex-direction: column;
+    margin-top: 15px;
+  }
+  .specialist-image {
+    width: 300px !important;
+    height: 300px;
+    margin: 0 auto;
   }
 }
