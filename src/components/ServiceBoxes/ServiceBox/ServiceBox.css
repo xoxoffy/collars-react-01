@@ -32,3 +32,22 @@
 .newText {
   margin-top: -10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .service-box {
+    width: 500px;
+    height: 500px;
+    margin-left: -120px;
+    margin-right: -60px;
+    font-size: 2rem;
+  }
+  .isNewCircle {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -480px;
+    margin-right: 480px;
+  }
+}

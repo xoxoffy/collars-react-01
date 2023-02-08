@@ -7,8 +7,8 @@ html {
   width: 960px;
 }
 
-/* @media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .container {
-    width: 100vh;
+    max-width: 600px;
   }
-} */
+}
