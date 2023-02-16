@@ -1,7 +1,7 @@
 import React from 'react';
+import ServiceBox from './../../src/components/ServiceBoxes/ServiceBox/ServiceBox';
+import { services } from './../../src/data/serviceBoxData';
 import './ServiceBoxes.css';
-import { services } from '../../data/serviceBoxData';
-import ServiceBox from './ServiceBox/ServiceBox';
 
 const ServiceBoxes: React.FunctionComponent = () => {
   const mappedServiceBoxes = services.map((services, key) => {

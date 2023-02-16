@@ -5,7 +5,7 @@ interface Props {
   lastName: string;
   position: string;
   description: string;
-  imgURL?: string;
+  imgURL: string;
 }
 
 const Specialist: React.FunctionComponent<Props> = ({
@@ -35,7 +35,7 @@ const Specialist: React.FunctionComponent<Props> = ({
         <h3>
           {firstName} {lastName} {position}
         </h3>
-        <b>{description}</b>
+        <span>{description}</span>
       </div>
     </li>
   );

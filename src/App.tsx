@@ -2,8 +2,8 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import HomeSection from './components/HomeSection/HomeSection';
 import NavBar from './components/Navbar/NavBar';
-import ServiceBoxes from './components/ServiceBoxes/ServiceBoxes';
-import Specialists from './components/Specialists/Specialists';
+import Specialists from './../containers/Specialists/Specialists';
+import ServiceBoxes from './../containers/ServiceBoxes/ServiceBoxes';
 
 const App: React.FunctionComponent = () => {
   const handleClickScrollOffer = () => {
