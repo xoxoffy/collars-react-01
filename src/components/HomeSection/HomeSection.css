@@ -26,17 +26,19 @@
   margin-top: 10px;
 }
 
-.offer-button:hover {
-  background-color: white;
-  color: black;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   .home-section {
     font-size: 2rem;
   }
   .offer-button {
     width: 225px;
     height: 50px;
+  }
+}
+
+@media (hover: hover) {
+  .offer-button:hover {
+    background-color: white;
+    color: black;
   }
 }

@@ -7,7 +7,7 @@
   margin-right: 50px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   .specialist {
     display: flex;
     flex-direction: column;
