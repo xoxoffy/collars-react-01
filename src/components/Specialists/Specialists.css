@@ -5,7 +5,6 @@
 }
 
 .specialists-header {
-  font-weight: bold;
   color: rgb(43, 63, 78);
 }
 
@@ -22,10 +21,5 @@ li:nth-of-type(even) {
     flex-direction: wrap;
     flex-direction: column;
     margin-top: 15px;
-  }
-  .specialist-image {
-    width: 300px !important;
-    height: 300px;
-    margin: 0 auto;
   }
 }

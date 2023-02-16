@@ -18,10 +18,14 @@ const Specialist: React.FunctionComponent<Props> = ({
   const photoStyle = {
     maxWidth: '500px',
     maxHeight: '500px',
-    width: '100%',
+    minWidth: '200px',
+    minHeight: '200px',
+    width: '300px',
+    height: '200px',
     backgroundImage: `url(${imgURL})`,
     backgroundSize: 'cover',
     borderRadius: '50%',
+    margin: '0 auto',
   };
 
   return (
