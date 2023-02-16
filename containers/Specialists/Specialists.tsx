@@ -1,7 +1,7 @@
 import './Specialists.css';
 import { specialistsData } from '../../src/data/specialistsData';
 import React from 'react';
-import Specialist from './../../src/components/Specialists/Specialist/Specialist';
+import Specialist from '../../src/components/Specialist/Specialist';
 
 const Specialists: React.FunctionComponent = () => {
   const mappedSpecialists = specialistsData.map((specialist, key) => {

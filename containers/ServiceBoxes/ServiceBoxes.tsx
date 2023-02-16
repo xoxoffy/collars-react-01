@@ -1,5 +1,5 @@
 import React from 'react';
-import ServiceBox from './../../src/components/ServiceBoxes/ServiceBox/ServiceBox';
+import ServiceBox from '../../src/components/ServiceBox/ServiceBox';
 import { services } from './../../src/data/serviceBoxData';
 import './ServiceBoxes.css';
 
