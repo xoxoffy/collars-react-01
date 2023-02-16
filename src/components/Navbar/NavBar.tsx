@@ -24,7 +24,7 @@ const NavBar: React.FunctionComponent<Props> = ({
         <button onClick={handleClickScrollOffer}>
           <h3>oferta</h3>
         </button>
-        <button style={{ cursor: 'not-allowed' }}>
+        <button className="notAllowedBtn">
           <h3>kontakt</h3>
         </button>
       </div>

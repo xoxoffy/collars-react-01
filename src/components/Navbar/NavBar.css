@@ -11,10 +11,14 @@
   margin-left: 50px;
 }
 
-.navbar button {
+.navbar-buttons button {
   border: none;
   background-color: transparent;
   color: whitesmoke;
   margin-right: 50px;
   cursor: pointer;
+}
+
+.notAllowedBtn {
+  cursor: not-allowed !important;
 }
