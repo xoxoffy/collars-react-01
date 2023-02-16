@@ -1,4 +1,6 @@
-export const specialistsData = [
+import ISpecialists from './../../types/specialists.interface';
+
+export const specialistsData: Array<ISpecialists> = [
   {
     firstName: 'Dominik',
     lastName: 'Woźniewicz',

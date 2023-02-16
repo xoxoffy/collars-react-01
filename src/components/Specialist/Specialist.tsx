@@ -1,14 +1,7 @@
 import './Specialist.css';
+import ISpecialists from './../../../types/specialists.interface';
 
-interface Props {
-  firstName: string;
-  lastName: string;
-  position: string;
-  description: string;
-  imgURL: string;
-}
-
-const Specialist: React.FunctionComponent<Props> = ({
+const Specialist: React.FunctionComponent<ISpecialists> = ({
   firstName = 'Imie',
   lastName = 'Nazwisko',
   position = '[ dział ]',

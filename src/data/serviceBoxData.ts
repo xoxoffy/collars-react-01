@@ -1,4 +1,6 @@
-export const services = [
+import IServiceBox from './../../types/serviceBox.interface';
+
+export const services: Array<IServiceBox> = [
   {
     serviceName: 'Usługa 1',
     isNew: true,

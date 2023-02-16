@@ -1,12 +1,8 @@
 import React from 'react';
 import './ServiceBox.css';
+import IServiceBox from './../../../types/serviceBox.interface';
 
-interface Props {
-  serviceName: string;
-  isNew: boolean;
-}
-
-const ServiceBox: React.FunctionComponent<Props> = ({
+const ServiceBox: React.FunctionComponent<IServiceBox> = ({
   serviceName = 'Usługa',
   isNew = false,
 }) => {

@@ -44,8 +44,6 @@
   .isNewCircle {
     width: 60px;
     height: 60px;
-    background-color: orange;
-    border-radius: 50%;
     position: absolute;
     margin-top: -480px;
     margin-right: 480px;
